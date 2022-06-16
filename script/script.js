@@ -58,3 +58,12 @@ function myarr(arr, count) {
 }
 
 console.log(myarr([3, 4, 10, -5],2));   
+
+
+
+
+
+const arr = [1,2,3,4,5]
+let result = arr.map(elem => elem+1)
+
+console.log(result);
