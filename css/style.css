@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: #C0C0C0;
+}
+
+
+
+.header-container {
+    max-width: 1200px;
+    min-width: 800px;
+  
+}
+
+
+.header-nav {
+
+}
+
+
+.nav-title {
+    text-align: center;
+    color: #9370db;
+
+}
+
+.nav-tutorial-arrays {
+
+}
+
+
+.arrays-methods {
+    color: #3cb371;
+}
+
+
+.methods-list {
+    
+}
+
+.list-li {
+    list-style-type: "\1F44D"; 
+    
+}
+
+.list-li a {
+    text-decoration: none;
+    color: #2e8b57;
+    font-weight: 700;
+    padding-left: 10px;
+}
