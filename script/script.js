@@ -49,29 +49,47 @@
 // console.log(findUnique([1, 2, 3, 5]));
 
 
-function myarr(arr, count) {
-    if (count === null) {
-        console.log(arr.pop());
-    } else {
-       console.log(arr.slice(-count));
-    }
-}
+// function myarr(arr, count) {
+//     if (count === null) {
+//         console.log(arr.pop());
+//     } else {
+//        console.log(arr.slice(-count));
+//     }
+// }
 
-console.log(myarr([3, 4, 10, -5],2));   
-
-
+// console.log(myarr([3, 4, 10, -5],2));   
 
 
 
-function learnJavaScript() {
-    const friends = [
-      { passport: '03005988', name: 'Joseph Francis Tribbiani Jr', age: 32, sex: 'm' },
-      { passport: '03005989', name: 'Chandler Muriel Bing', age: 33, sex: 'm' },
-      { passport: '03005990', name: 'Ross Eustace Geller', age: 33, sex: 'm' },
-      { passport: '03005991', name: 'Rachel Karen Green', age: 31, sex: 'f' },
-      { passport: '03005992', name: 'Monica Geller', age: 31, sex: 'f' },
-      { passport: '03005993', name: 'Phoebe Buffay', age: 34, sex: 'f' }
-    ]
-    let passports = friends.map(friend => friend.passport + ' ')
-    return passports
-  }
+
+
+// function showUser(id) {
+//     if (id >= 0) {
+//         return {id}
+//     } else {
+//         throw new Error(`ID must not be negative: ${id}`)
+//     }
+// }
+
+
+
+// function showUsers(ids) {
+//     let result = []
+//     for (let t = 0; t < ids.length; t++) {
+//         try {
+//             result.push(showUser(ids[t]))
+//         } catch (error) {
+//             console.log(error.message);
+//         }
+        
+//     }
+//     return result
+// }
+
+// console.log(showUsers([7,-12,  44, 22]));
+
+
+
+
+
+
