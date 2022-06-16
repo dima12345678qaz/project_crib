@@ -25,7 +25,7 @@ body {
 
 
 .header-nav {
-
+    display: flex;
 }
 
 
@@ -59,4 +59,47 @@ body {
     color: #2e8b57;
     font-weight: 700;
     padding-left: 10px;
+}
+
+.object-methods {
+    color: #006400;
+}
+   
+
+.object-list {
+    list-style: none;
+}
+
+.object-list-li {
+    list-style-type: "\1F44D"; 
+    
+}
+
+.object-list-li a {
+    text-decoration: none;
+    color: #6B8E23;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.nav-oop {
+    color: #800000;
+}
+
+
+
+.nav-oop-list {
+    list-style: none;
+}
+
+.oop-list-li {
+    list-style:disc;
+}
+.oop-list-li a { 
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 20px;
+    font-weight: 700;
 }

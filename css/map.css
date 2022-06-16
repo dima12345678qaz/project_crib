@@ -21,6 +21,31 @@ body h1 {
     margin: 0 auto;
 }
 
+section {
+    display: flex;
+}
+
 pre {
     font-size: 20px;
 }
+
+
+img {
+    width: 100px;
+    align-self: center;
+    padding-bottom: 60px;
+    padding-right: 20px;
+    
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+span {
+    font-weight: 700;
+}
+
+
